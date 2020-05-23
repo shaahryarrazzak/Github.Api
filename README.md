@@ -5,5 +5,6 @@ Github REST API wrapper contains an end point to get the most popular assembly l
 fetched from Github API using a backgound worker thread and placed in an in-memory cache.
 
 
+![image](https://user-images.githubusercontent.com/44266076/82735168-abb26980-9ced-11ea-979c-c547e4390f70.png)
 
 
