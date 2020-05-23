@@ -22,6 +22,8 @@ Simple Github Api consumes the Github REST API implements and caches the most po
 6. Use postman to test the following GET end point. 
       GET https://localhost:5001/v1/api/Repos?description=Apollo 
       Note: Change port from 5001 to your port if necessary.
+      
+For more information please click: [Simple Git Server](https://docs.google.com/document/d/1yRbB4DANjGWs1yv3CSD8tttNOoiquzbo_UNAZkeuMgY/edit?usp=sharing)
 
 ## Some non-functional features:
 1. The program is easy to understand.
