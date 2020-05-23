@@ -1,7 +1,6 @@
 ## Simple Github Api
 
-Github REST API wrapper contains an end point to get the most popular assembly language repositories. The data is periodically 
-fetched from Github API using a backgound worker thread and placed in an in-memory cache. There are three main components of the program:
+Simple Github Api consumes the Github REST API implements and caches the most popular assembly language repositories. The data is periodically fetched from Github API using a backgound worker thread and placed in an in-memory cache. There are three main components of the program:
 
 
 1. An in-memory cache for storing some interesting facts about Github repositories. A thread safe global hash table is used for this purpose.
@@ -12,5 +11,21 @@ fetched from Github API using a backgound worker thread and placed in an in-memo
 
 
 ![image](https://user-images.githubusercontent.com/44266076/82735168-abb26980-9ced-11ea-979c-c547e4390f70.png)
+
+
+## Steps to run
+1. Clone repository.
+2. Open the Github.Api.sln file in Visual Studio 2019 Version 16.4+
+3. Set Git.Data.Api as startup project.
+4. Add your personal access token to appsettings.json.
+5. Build and Run.
+6. Open post man. 
+7. GET https://localhost:5001/v1/api/Repos?description=Apollo 
+8. Change port from 5001 to your port if necessary.
+
+
+
+
+
 
 
