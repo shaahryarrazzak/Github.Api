@@ -19,9 +19,36 @@ Simple Github Api consumes the Github REST API implements and caches the most po
 3. Set Git.Data.Api as startup project.
 4. Add your personal access token to appsettings.json.
 5. Build and Run.
-6. Open post man. 
-7. GET https://localhost:5001/v1/api/Repos?description=Apollo 
-8. Change port from 5001 to your port if necessary.
+6. Use post man to test the following GET end point. 
+      GET https://localhost:5001/v1/api/Repos?description=Apollo 
+      Note: Change port from 5001 to your port if necessary.
+
+## Some non-functional features:
+1. The program is easy to understand.
+2. It is easy to enhance, extend and maintain.
+3. It is written so that merge conflicts are minimal.
+4. It is fast, querying in-memory cache is 200+ times faster than the Github API call.
+5. It is platform independent. 
+6. It is easy to test and debug.
+7. Supports logging and elegant error handling.
+
+## Absent features and possible disadvantages:
+1. In-Memory space is limited. 
+2. Cache cannot be distributed over multiple nodes.
+3. Cache could go stale. Refresh happens every 5 seconds.
+4. Cache maintains only 30 most popular repositories of assembly language.
+API is exposing only one simple GET endpoint for demonstration purposes only but capable of extending to more functionality as needed. 
+5. Token is kept in the configuration.
+
+## Program uses some clean code principles like:
+1. Dependency injection.
+2. Interface segregation.
+3. Single responsibility.
+4. Separation of concerns.
+5. Generality and componentization.
+
+
+
 
 
 
