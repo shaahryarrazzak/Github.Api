@@ -14,7 +14,7 @@ Simple Github Api consumes the Github REST API implements and caches the most po
 
 
 ## Steps to run
-1. Clone repository.
+1. Clone the repository.
 2. Open the Github.Api.sln file in Visual Studio 2019 Version 16.4+
 3. Set Git.Data.Api as startup project.
 4. Add your personal access token to appsettings.json.
@@ -46,9 +46,6 @@ API is exposing only one simple GET endpoint for demonstration purposes only but
 3. Single responsibility.
 4. Separation of concerns.
 5. Generality and componentization.
-
-
-
 
 
 
