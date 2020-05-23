@@ -1,7 +1,8 @@
 # Github.Api
 
 Github REST API wrapper contains an end point to get the most popular assembly language repositories. The data is periodically 
-fetched from Github API using a backgound worker thread and placed in an in-memory cache.
+fetched from Github API using a backgound worker thread and placed in an in-memory cache. There are three main components of the program:
+
 
 1. An in-memory cache for storing some interesting facts about Github repositories. A thread safe global hash table is used for this purpose.
 
