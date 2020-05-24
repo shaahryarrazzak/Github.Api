@@ -1,6 +1,6 @@
 ## Simple Github Api client and server
 
-Simple Github Api client implements and caches the most popular assembly language repositories. The data is periodically fetched from Github API using a backgound worker thread and placed in an in-memory cache. There are three main components of the program:
+Simple Github Api client implements and caches the most popular assembly-language repositories. The data is periodically fetched from Github API using a backgound worker thread and placed in an in-memory cache. There are three main components of the program:
 
 
 1. An in-memory cache for storing some interesting facts about Github repositories. A thread safe global hash table is used for this purpose.
